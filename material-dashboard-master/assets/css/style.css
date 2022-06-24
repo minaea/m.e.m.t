@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "semiBold";
+  src: url(../font/ExpoArabic/ExpoArabic-SemiBold.ttf)
+}
+
+@font-face {
+  font-family: "regular";
+  src: url(../font/ExpoArabic/ExpoArabic-Medium.ttf);
+}
+
+@font-face {
+  font-family: "bold";
+  src: url(../font/ExpoArabic/ExpoArabic-Book.ttf);
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+  color: #fff;
+}
+i{
+  color: #fff;
+  size: 100px;
+}
+
+/*Header*/
+header{
+  width: 100%;
+  position: relative;
+  z-index: 99;
+  overflow: hidden;
+  padding: 100px 0px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: 'bold';
+}
+header::after{
+  content: '';
+  position: absolute;
+  padding-bottom: 100%;
+  width: 100%;
+  background: url('../img/MEMT.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0%;
+  background-position: center; 
+  z-index: -1;
+}
+header .head-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+header .head-content h4 {
+  font-size: 40px;
+  font-family: 'semibold';
+  text-align: center;
+  color: #fff;
+  
+}
+header .head-content p {
+  font-size: 20px;
+  font-family: 'regular';
+  line-height: 2rem;
+  text-align: center;
+  color: #fff;
+  margin: 20px 0px;
+}
+header .head-content .btn {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+header .head-content .btn  img{
+  width: 80%;
+  margin: 50px 10px;
+}
+
+ /*Copyright*/
+ .copy{
+  background-color: #000;
+  padding: 5px 0px;
+}
+.copy p{
+  font-size: 16px;
+  font-family: 'regular';
+  color: #FFFFFF;
+  margin: 10px 30px 10px 200px ;
+}
