@@ -208,23 +208,29 @@
               </div>
               <div class="card-body">
                 <form role="form text-left">
+                    <div class="input-group input-group-outline my-3">
+                    <h6 class="text-dark font-weight-bolder text-center mt-2 mb-0">Device Name:&nbsp;&nbsp;</h6><input type="Device Name" class="form-control" placeholder="Device Name" aria-label="Device Name" aria-describedby="Device Name-addon">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <h6 class="text-dark font-weight-bolder text-center mt-2 mb-0"> Device Code:&nbsp;&nbsp;</h6><input type="CODE" class="form-control" placeholder="CODE" aria-label="CODE" aria-describedby="CODE-addon">
+                    </div>
+                    <div class="input-group input-group-outline my-3">
+                    <h6 class="text-dark font-weight-bolder text-center mt-2 mb-0">Department :&nbsp;&nbsp;</h6>
+                    <input class="form-control" placeholder="DEPARTMENT" aria-label="DEPARTMENT" name="color" id="color" list="DEPARTMENTs"> 
+ <datalist id="DEPARTMENTs"><option>Radiology</option> <option>outpatient</option> <option>ICU</option> <option>Operation room</option>  <option>EMR</option> <option>INP</option>  </datalist>&nbsp;&nbsp;
+ <h6 class="text-dark font-weight-bolder text-center mt-2 mb-0">DEVICE serial Number :&nbsp;&nbsp;</h6>&nbsp;&nbsp; <input type="Serialnumber" class="form-control" placeholder="Device Serial NO." aria-label="Device Serial NO." aria-describedby="Device Serial NO.-addon">
+                 
                   <div class="input-group input-group-outline my-3">
-                    <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon">
+                    <h6 class="text-dark font-weight-bolder text-center mt-2 mb-0">Choose LOCATION:&nbsp;&nbsp;</h6>
+ <input class="form-control" placeholder="LOCATION" aria-label="LOCATION" name="color" id="color" list="Location"> 
+ <datalist id="Location"><option>Floor 0</option> <option>Floor 1</option> <option>Floor 2</option> <option>Floor 3</option> <option>Floor 4</option> <option>Floor 5</option> <option>Floor 6</option> <option>Floor 7</option> <option>Floor 7</option> <option>Floor 8</option> </datalist>
                   </div>
                   <div class="input-group input-group-outline my-3">
-                    <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon">
-                  </div>
-                  <div class="input-group input-group-outline my-3">
-                    <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon">
-                  </div>
-                  <div class="input-group input-group-outline my-3">
-                    <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon">
-                  </div>
-                  <div class="input-group input-group-outline my-3">
-                    <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="email-addon">
+                    <h6 class="text-dark font-weight-bolder text-center mt-2 mb-0"> Aquistion Date:&nbsp;&nbsp;</h6><input type="date" class="form-control" id="start" name="trip-start" value="2018-07-22" min="2000-01-01" max="2050-12-31">&nbsp;&nbsp;
+                    <h6 class="text-dark font-weight-bolder text-center mt-2 mb-0">last Maintenance:&nbsp;&nbsp;</h6><input type="date" class="form-control" id="start" name="trip-start" value="2018-07-22" min="2000-01-01" max="2050-12-31">
                   </div>
                   
-                  
+                  <div class="input-group input-group-outline my-3">
+                    <h6 class="text-dark font-weight-bolder text-center mt-2 mb-0">last PREVENTIVE Maintenance:&nbsp;&nbsp;</h6><input type="date" class="form-control" id="start" name="trip-start" value="2018-07-22" min="2000-01-01" max="2050-12-31">
+                  </div>
                   <div class="text-center">
                     <button type="button" class="btn bg-gradient-dark w-100 my-4 mb-2">Add Device</button>
                   </div>
